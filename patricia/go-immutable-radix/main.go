@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"unicode/utf8"
 
 	"github.com/dogenzaka/nihongo"
@@ -81,8 +82,8 @@ func main() {
 
 	pp.Println(res, len(res))
 
-	//m, i, ok := r.Root().Maximum()
-	//fmt.Println(string(m), i, ok)
+	m, i, ok := r.Root().Maximum()
+	fmt.Println(string(m), i, ok)
 	//m, i, ok = r.Root().Minimum()
 	//fmt.Println(string(m), i, ok)
 }

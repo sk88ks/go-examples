@@ -1,13 +1,12 @@
 package main
 
 import (
+	"context"
 	"fmt"
 	"net/http"
 	"time"
 
 	"github.com/k0kubun/pp"
-
-	"golang.org/x/net/context"
 )
 
 // ContextErrFunc : 処理共通化のためのタスクの定義用
